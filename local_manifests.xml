@@ -11,6 +11,8 @@
     <project path="device/qcom/sepolicy_vndr/sm6225" name="device_qcom_sepolicy_vndr" remote="sm6225-sapphire-oss" revision="14" />
 
     <!-- QCOM Hardware -->
+    <remove-project name="hardware/qcom-caf/common" />
+    
     <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="sm6225-sapphire-oss" revision="14" />
 
     <project path="hardware/qcom-caf/sm6225/audio/agm" name="vendor_qcom_opensource_agm" remote="sm6225-sapphire-oss" revision="14" />
