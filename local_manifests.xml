@@ -8,39 +8,28 @@
     <project path="vendor/xiaomi/sapphire" name="vendor_xiaomi_sapphire" remote="sm6225-sapphire-oss" revision="14" />
 
     <!-- QCOM SE Policy -->
-    <remove-project name="device/qcom/sepolicy_vndr/sm6225" />
     <project path="device/qcom/sepolicy_vndr/sm6225" name="device_qcom_sepolicy_vndr" remote="sm6225-sapphire-oss" revision="14" />
 
     <!-- QCOM Hardware -->
-    <remove-project name="hardware/qcom-caf/common" />
     <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="sm6225-sapphire-oss" revision="14" />
 
-    <remove-project name="hardware/qcom-caf/sm6225/audio/agm" />
     <project path="hardware/qcom-caf/sm6225/audio/agm" name="vendor_qcom_opensource_agm" remote="sm6225-sapphire-oss" revision="14" />
 
-    <remove-project name="hardware/qcom-caf/sm6225/audio/pal" />
     <project path="hardware/qcom-caf/sm6225/audio/pal" name="vendor_qcom_opensource_arpal-lx" remote="sm6225-sapphire-oss" revision="14" />
 
-    <remove-project name="hardware/qcom-caf/sm6225/audio/primary-hal" />
     <project path="hardware/qcom-caf/sm6225/audio/primary-hal" name="hardware_qcom_audio-ar" remote="sm6225-sapphire-oss" revision="14" />
 
-    <remove-project name="hardware/qcom-caf/sm6225/data-ipa-cfg-mgr" />
     <project path="hardware/qcom-caf/sm6225/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="sm6225-sapphire-oss" revision="14" />
 
-    <remove-project name="hardware/qcom-caf/sm6225/dataipa" />
     <project path="hardware/qcom-caf/sm6225/dataipa" name="vendor_qcom_opensource_dataipa" remote="sm6225-sapphire-oss" revision="14" />
 
-    <remove-project name="hardware/qcom-caf/sm6225/display" />
     <project path="hardware/qcom-caf/sm6225/display" name="hardware_qcom_display" remote="sm6225-sapphire-oss" revision="14" />
 
-    <remove-project name="hardware/qcom-caf/sm6225/media" />
     <project path="hardware/qcom-caf/sm6225/media" name="hardware_qcom_media" remote="sm6225-sapphire-oss" revision="14" />
 
     <!-- Xiaomi Hardware -->
-    <remove-project name="device/xiaomi/sepolicy" />
     <project path="device/xiaomi/sepolicy" name="device_xiaomi_sepolicy" remote="sm6225-sapphire-oss" />
 
-    <remove-project name="hardware/xiaomi" />
     <project path="hardware/xiaomi" name="hardware_xiaomi" remote="sm6225-sapphire-oss" />
 
 </manifest>
