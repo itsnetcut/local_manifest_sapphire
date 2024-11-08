@@ -1,37 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
     <!-- Remotes -->
     <remote name="sm6225-sapphire-oss" fetch="https://github.com/sm6225-sapphire-oss" clone-depth="1" />
-    <!-- Device -->
+
+    <!-- Device-specific Projects -->
     <project path="device/xiaomi/sapphire" name="device_xiaomi_sapphire" remote="sm6225-sapphire-oss" revision="14.0" />
     <project path="device/xiaomi/sapphire-kernel" name="device_xiaomi_sapphire-kernel" remote="sm6225-sapphire-oss" revision="14" />
     <project path="vendor/xiaomi/sapphire" name="vendor_xiaomi_sapphire" remote="sm6225-sapphire-oss" revision="14" />
 
-    <!-- QCOM SE Policy -->
+    <!-- Qualcomm SE Policy -->
     <project path="device/qcom/sepolicy_vndr/sm6225" name="device_qcom_sepolicy_vndr" remote="sm6225-sapphire-oss" revision="14" />
 
-    <!-- QCOM Hardware -->
+    <!-- Qualcomm Hardware (Removing and Re-adding Common Hardware) -->
     <remove-project path="hardware/qcom-caf/common" />
-    
     <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="sm6225-sapphire-oss" revision="14" />
 
+    <!-- Audio Configuration Projects -->
     <project path="hardware/qcom-caf/sm6225/audio/agm" name="vendor_qcom_opensource_agm" remote="sm6225-sapphire-oss" revision="14" />
-
     <project path="hardware/qcom-caf/sm6225/audio/pal" name="vendor_qcom_opensource_arpal-lx" remote="sm6225-sapphire-oss" revision="14" />
-
     <project path="hardware/qcom-caf/sm6225/audio/primary-hal" name="hardware_qcom_audio-ar" remote="sm6225-sapphire-oss" revision="14" />
 
+    <!-- Data and Display Projects -->
     <project path="hardware/qcom-caf/sm6225/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="sm6225-sapphire-oss" revision="14" />
-
     <project path="hardware/qcom-caf/sm6225/dataipa" name="vendor_qcom_opensource_dataipa" remote="sm6225-sapphire-oss" revision="14" />
-
     <project path="hardware/qcom-caf/sm6225/display" name="hardware_qcom_display" remote="sm6225-sapphire-oss" revision="14" />
-
     <project path="hardware/qcom-caf/sm6225/media" name="hardware_qcom_media" remote="sm6225-sapphire-oss" revision="14" />
 
-    <!-- Xiaomi Hardware -->
+    <!-- Xiaomi-specific Projects -->
     <project path="device/xiaomi/sepolicy" name="device_xiaomi_sepolicy" remote="sm6225-sapphire-oss" />
-
     <project path="hardware/xiaomi" name="hardware_xiaomi" remote="sm6225-sapphire-oss" />
 
 </manifest>
